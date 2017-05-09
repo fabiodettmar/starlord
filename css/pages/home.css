@@ -1,0 +1,20 @@
+.second {
+	height:100vh;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.second .box1, .second .box2, .second .box3 {
+	height:100%;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-flex:1 1 auto;
+	flex:1 1 auto;
+}
+
+.third {
+	height:100vh;
+}

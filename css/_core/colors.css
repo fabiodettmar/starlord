@@ -1,0 +1,24 @@
+header {
+	background:#333;
+}
+.main {
+	background:#5500BB;
+}
+.second {
+	background:#d1d1d1;
+}
+.second .box1 {
+	background:#458FFF;
+}
+.second .box2 {
+	background:black;
+}
+.second .box3 {
+	background:#666;
+}
+.third {
+	background:yellow;
+}
+footer {
+	background:#333;
+}

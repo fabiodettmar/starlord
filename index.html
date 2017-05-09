@@ -1,0 +1,41 @@
+﻿<hmtl>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<header>
+			<h1 class="logo"><img src="img/logo.png"/></h1>
+			<nav class="navbar">
+			  <button class="navbar-btn">
+				☰<span class="sr-only">Menu</span>
+			  </button>
+			  <div class="navbar-inner">
+					<ul class="nav">
+					  <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+					  <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+					  <li class="nav-item"><a href="#" class="nav-link">Clientes</a></li>
+					  <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+					</ul>
+			  </div>
+			</nav>
+		</header>
+		<div class="main"></div>
+		<div class="second">
+			<div class="box1">aaaa</div>
+			<div class="box2">bbb</div>
+			<div class="box3">ccc</div>
+		</div>
+		<div class="third"></div>
+		<footer>
+		rodapé
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript">
+			$('.navbar-btn').on('click', function() {
+			  $('.navbar-inner').toggleClass('in');
+			});
+		</script>
+
+	</body>
+</html>
